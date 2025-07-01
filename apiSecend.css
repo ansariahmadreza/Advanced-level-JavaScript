@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: blueviolet;
+}
+
+.box {
+    margin-top: 50px;
+    background-color: aliceblue;
+    margin: 50px auto;
+    width: 290px;
+    height: 250px;
+    border-radius: 3px;
+}
+
+.inputElem{
+    margin: 30px 20px;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid rebeccapurple;
+    position: relative;
+}
+
+.btnSearch{
+    border: none;
+    background-color: rebeccapurple;
+    color: white;
+    border-radius: 3px;
+    padding: 5px 4px;
+}
+
+.btnSearch:hover{
+    cursor: pointer;
+}
+
+.contWord{
+    margin-left: 30px;  
+    position: absolute;
+}
+
+.boxVel{
+    float: right;
+    margin-right: 30px;
+    margin-top: 15px;
+}
+
+.fa-volume-high{
+    cursor: pointer;
+}
+
+
+
+
+
